@@ -1,0 +1,300 @@
+@media screen and (max-width: 1500px){
+    /*index.php*/
+    #home-title {
+        height: 750px;
+    }
+    #home-btn {
+        height: 750px;
+    }
+    #home-title-box {
+        margin-top: 300px;
+    }
+    #box-btn {
+        margin-top: 300px;
+    }
+    #connexionMDP {
+        font-size: 0.75rem;
+    }
+    #registerMDP {
+        font-size: 0.75rem;
+    }
+    /*index.php?action=home*/
+    .txt-post {
+        font-size: 0.75rem;
+    }
+    .custom-file-upload-home {
+        width: 50%;
+    }
+    .btn-post {
+        font-size: 0.75rem;
+    }
+    .publication-user-friend {
+        width: 60%;
+    }
+    .details-user-friend {
+        width: 70%;
+    }
+    .date_user-friend {
+        font-size: 0.75rem;
+    }
+    .user-friend {
+        width: 60%;
+    }
+    /*index.php?action=user*/
+    #title-user {
+        font-size: 1rem;
+        width: 50%;
+    }
+    /*index.php?action=friend*/
+    #title-friend {
+        width: 50%;
+    }
+    #search-friend {
+        width: 40%;
+    }
+    .allUser {
+        width: 30%;
+    }
+    /*index.php?action=settings*/
+    #settings {
+        height: 600px;
+    }
+    #formModif {
+        height: 80%;
+    }
+    .modif-txt {
+        font-size: 0.75rem;
+    }
+    /*easterEgg*/
+    #easterEgg p {
+        font-size: 0.75rem;
+        width: 80%;
+    }
+    #easterEgg h1 {
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 950px){
+    /*index.php?action=home*/
+    .txt-post {
+        font-size: 0.60rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    /*Général*/
+    #main {
+        display: block;
+    }
+    #logo {
+        width: 50px;
+        margin: 0 auto;
+        left: calc(50% - 25px);
+        position: absolute;
+    }
+    #menu {
+        z-index: 15;
+        flex-direction: column-reverse;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        background-color: white;
+    }
+    #menu hr {
+        display: none;
+    }
+    #menu nav {
+        flex-direction: row;
+        height: 100%;
+    }
+    #menu nav a img {
+        width: 50px !important;
+        height: 47px !important;
+    }
+    #userImg {
+        display: block;
+        min-width: 60px !important;
+        min-height: 57px !important;
+        width: 60px !important;
+        height: 57px !important;
+    }
+    #theme {
+        border-radius: 10px;
+    }
+    #theme img {
+        width: 25px;
+        height: 25px;
+    }
+    /*index.php*/
+    #home {
+        flex-direction: column;
+    }
+    #home-title {
+        width: 100%;
+        height: 300px;
+    }
+    #home-title-box {
+        margin-top: 150px;
+    }
+    #home-title-box h1 {
+        font-size: 1.80rem;
+    }
+    #connexion {
+        font-size: 1rem;
+    }
+    #register {
+        font-size: 1rem;
+    }
+    #home-btn {
+        position: absolute;
+        bottom: 0;
+        justify-content: none;
+        width: 100%;
+        border-bottom-left-radius: none;
+        border-top-right-radius: 20px;
+        height: 50%;
+    }
+    #box-btn {
+        margin-top: 100px;
+    }
+    #formConnexion {
+        margin-top: 10px;
+        justify-content: unset;
+    }
+    #formRegister {
+        justify-content: unset;
+    }
+    #titleConnexion {
+        margin: 0 auto !important;
+    }
+    .register-txt {
+        width: 40%;
+        font-size: 0.75rem;
+        padding: 5px;
+        margin-top: 20px;
+    }
+    #registerBoxMDP {
+        width: 50%;
+    }
+    #connexionMDP {
+        margin-top: 0px;
+    }
+    #connexionHideImg {
+        margin-top: 10px;
+    }
+    #validation-connexion {
+        margin-top: 20px;
+    }
+    #registerMDP {
+        margin-top: 0;
+    }
+    #registerHideImg {
+        width: 40px !important;
+        margin-top: 10px;
+    }
+    /*index.php?action=home*/
+    #home-post {
+        border-radius: unset;
+    }
+    /*index.php?action=user*/
+    #user {
+        width: 100%;
+        border-radius: unset;
+    }
+    .publication-user-friend {
+        width: 80%;
+    }
+    /*index.php?action=friend*/
+    #friend {
+        border-radius: unset;
+    }
+    #settings {
+        border-radius: unset;
+    }
+    /*easterEgg*/
+    #easterEgg {
+        height: 1000px;
+    }
+    #easterEgg h1 {
+        width: 80%;
+    }
+    #aide h1 {
+        width: 70%;
+    }
+    #theme {
+        position: absolute;
+        top: 5px;
+        bottom: unset;
+    }
+}
+@media screen and (max-width: 425px){
+    /*index.php*/
+    #home-title-box {
+        margin-top: 100px;
+    }
+    /*index.php?action=home*/
+    .title-home {
+        width: 50%;
+        font-size: 1rem;
+    }
+    #create-post {
+        width: 80%;
+    }
+    .publication-user-friend {
+        width: 95%;
+    }
+    .name-user-friend {
+        font-size: 1rem;
+    }
+    .user-friend {
+        width: 80%;
+        margin: 0 auto;
+    }
+    /*index.php?action=friend*/
+    #title-friend {
+        width: 80%;
+    }
+    #search-friend {
+        width: 80%;
+    }
+    .allUser {
+        width: 50%;
+    }
+    /*index.php?action=settings*/
+    #settings {
+        flex-direction: column;
+        justify-content: unset;
+        height: 800px;
+    }
+    #formModif {
+        width: 80%;
+        height: 500px;
+        margin: 10px auto;
+    }
+    #aide h1 {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 375px){
+    .bar-post {
+        margin-right: 10px;
+    }
+    /*easterEgg*/
+    #easterEgg {
+        height: 1100px;
+    }
+}
+@media screen and (max-width: 320px){
+    #connexion {
+        width: 40%;
+    }
+    #register {
+        width: 40%;
+    }
+    #home-title-box h1 {
+        font-size: 1.50rem;
+    }
+    /*easterEgg*/
+    #easterEgg {
+        height: 1200px;
+    }
+}
